@@ -154,7 +154,7 @@ public abstract class OpplusLayout extends AppLayout {
             menu.setSelectedTab(null);
 
         //viewTitle.setText(getCurrentPageTitle());
-        navigationBar.setTitleComponent(getCurrentPageTitle());
+        navigationBar.setTitleComponent(getTranslation(getCurrentPageTitle()));
         //if (UI.getCurrent() != null)
             //BrowserNotifications.extend(UI.getCurrent()).askForPermission();
     }
